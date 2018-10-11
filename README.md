@@ -27,10 +27,6 @@ Angular CLI: 6.2.3
 
 The drawing area is represented in light blue.  Click anywhere in that area to define three interpolation points, which are visually represented by red circles.  After the third point is entered, the display is updated to show the control points and the quadratic Bezier curve.  The total arc length of the curve is displayed as well.  Click on the _Equal t_ and/or _Equal s_ checkboxes to visualize points on the curve at _t = 0.2, 0.4, 0.6, 0.8_ as or _s = 0.2, 0.4, 0.6, 0.8_.  Drag one of the control points to see how the spread between natural and normalized arc length parameterization changes as a function of geometric constraints.
 
-Here is an image of the demo with both _Equal t_ and _Equal s_ increments selected.
-
-![Quad Bezier Demo]('quad1.png')
-
 The quad Bezier public API is very robust and is summarized below.  This summary does not include other methods available in the _PlanarCurve_ superclass.
 
 
