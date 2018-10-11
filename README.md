@@ -29,7 +29,7 @@ The drawing area is represented in light blue.  Click anywhere in that area to d
 
 Here is an image of the demo with both _Equal t_ and _Equal s_ increments selected.
 
-![Quad Bezier Demo](quad1.png)
+![Quad Bezier Demo](./quad1.png)
 
 The quad Bezier public API is very robust and is summarized below.  This summary does not include other methods available in the _PlanarCurve_ superclass.
 
