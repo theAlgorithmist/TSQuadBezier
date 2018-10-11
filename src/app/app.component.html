@@ -1,0 +1,30 @@
+<div><p>Typescript Math Toolkit Quadratic Bezier Explorer</p>
+  <div quad-bezier
+       width="600"
+       height="400"
+       class="bezier-container"
+       (point)="onPoint($event)"
+       (length)="onLength($event)">
+  </div>
+
+  <!-- this would normally be a separate component, but for demo puposes, the controls are inlined into the main app layout -->
+  <div class="bezier-control-container">
+    <p class="title">{{statusTxt}}</p>
+    <p class="title">{{arcLengthTxt}}</p>
+
+    <div class="bezier-controls">
+      <button class="clear-button" (click)="onClear()">Clear</button>
+      <span>
+        <label class="check-container check-blue">Equal-t
+          <input type="checkbox" (change)="onShowT($event)">
+          <span class="checkmark"></span>
+        </label>
+
+         <label class="check-container check-green">Equal-s
+          <input type="checkbox" (change)="onShowS($event)">
+          <span class="checkmark"></span>
+        </label>
+      </span>
+    </div>
+  </div>
+</div>
