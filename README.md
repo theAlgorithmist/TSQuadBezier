@@ -10,6 +10,8 @@ Now, there are an infinity of quadratic curves that pass through three points th
 
 Points on the curve at equal increments of _t_ and _s_ may also be illustrated.  Drag one of the control points to see how the relationship between the two varies as a function of the geometric constraints.
 
+NOTE:  This repo is no longer maintained or modified.  The quadratic Bezier [is now part of AMYR Library](https://github.com/theAlgorithmist/AMYR).  This repo remains online for historical purposes.
+
 
 Author:  Jim Armstrong - [The Algorithmist]
 
